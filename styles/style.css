@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+/* banner section */
+.banner-sec{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/banner/banner3.png);
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-info{
+    width: 40%;
+    margin-top: 250px;
+}
+.banner-info h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 25px;
+}
+.banner-info p{
+    color: white;
+    margin-bottom: 20px;
+}
+.banner-info .contact-btn{
+    padding: 21px;
+    border-radius: 5px;
+    color: #005FAC;
+    border: none;
+    margin-left: 460px;
+}
+header{
+    margin-bottom: 100px;
+}
+/* applying syles on woman */
+.woman{
+    width: 80%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.her-mistakes{
+    margin-top: 250px;
+}
+.her-mistakes h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.her-mistakes, .list{
+    margin-bottom: 7px;
+}
+/* My plans */
+.my-plan{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan-list{
+    width: 20%;
+    margin-top: 200px;
+}
+.my-plan h1{
+    text-align: center;
+}
+.plan-title{
+    text-align: center;
+    font-size: 35px;
+}
+.my-plan > .plan-title{
+    text-align: center;
+}
+/* footer section */
+footer{
+    background-color: rgba(14, 12, 12, 0.904);
+    width: 100%;
+    height: 350px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.contact-sec, .submit-sec{
+    width: 35%;
+    /* border: 5px solid red; */
+    margin-top: 80px;
+}
+.contact-sec h1, p{
+    margin-bottom: 15px;
+}
+.social-links a{
+    margin-right: 9px;
+}
+.submit-sec input{
+    padding: 15px 80px;
+    border: 1px solild white;
+    border-radius: 5px;
+    background-color:rgba(14, 12, 12, 0.904); ;
+    margin-top: 15px;
+}
+.submit-sec button{
+    padding: 15px 70px;
+    margin-top: 19px;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+/* Positive mindset */
+.positive-mindset{
+    width: 80%;
+    height: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-image: url(../images/gradient1.png),url(../images/watch.png), url(../images/gradient1.png);
+}
+.positive-info{
+    margin: 50px 0 0 30px ;
+}
+.positive-info h1{
+    font-size: 35px;
+    color: white;
+}
+.positive-info button{
+    margin-top: 11px;
+   padding: 15px 70px; ;
+   color:#005FAC;
+   background-color: white;
+   border: 0;
+   border-radius: 5px;
+   font-weight: 600;
+   font-size: 16px;
+}
